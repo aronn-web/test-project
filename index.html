@@ -1,18 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>
-    Kethoris
-    </h1>
-    <p>Welcome to Kethoris, your ultimate document management system software. With Kethoris, you can easily organize, store, and retrieve your documents with ease. Our user-friendly interface allows you to manage your files efficiently, ensuring that you can focus on what matters most. Whether you're a professional looking to streamline your workflow or an individual seeking a reliable document management solution, Kethoris has got you covered. Start optimizing your document management experience today!
-    </p>
-    <div>
-    This is a text simulation of a new feature. And Bob Changed it again.
-    </div>
-</body>
+    <title>Frontend Simplified</title>
+    <link rel="icon" href="fes-library/assets/fes-logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <!-- Nav Bar -->
+    <section>
+      <nav>
+        <div class="logo">
+          <img src="fes-library/assets/fes-logo.png" class="logo__img" alt="">
+          <h1 class="logo__text"><b>Frontend</b> Simplified</h1>
+        </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#social">Social</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header, Hero Row -->
+      <header>
+        <div class="row row__course">
+          <div class="course">
+            <h1 class="course__icon">💾</h1>
+            <div class="course__text">
+              <div class="course__selection">----YOUR COURSE----</div>
+              <div class="course__title">Software Engineering</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="hero">
+            <figure class="hero__img--wrapper">
+              <img src="fes-library/assets/laptop.png" alt="Developer working on a laptop">
+            </figure>
+            <div class="hero__description">
+              <h1>Best place to learn frontend</h1>
+              <p class="subheader">
+                Go from absolute beginner to pro with a simplified process
+              </p>
+              <a href="#about">
+              <button class="hero__description--button">
+                ▷ LEARN MORE
+              </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>  
+    </section>
+
+<!-- Main Section -->
+
+    <main>
+
+      <!-- About Section -->
+      <section id="about">
+        <div class=" row about__row">
+          <div class="section__card section__card--about">
+            <h1 class="section__title">About</h1>
+            <div class="section__description">
+              <div class="section__description--wrapper">
+                <p class="section__description--para">
+                  Frontend Simplified is dedicated to making frontend development accessible and straightforward for everyone. Our courses are designed to guide you from the basics to advanced concepts, ensuring a smooth learning experience.
+                </p>
+                <p class="section__description--para">
+                  Frontend Simplified is dedicated to making frontend development accessible and straightforward for everyone. Our courses are designed to guide you from the basics to advanced concepts, ensuring a smooth learning experience.
+                </p>
+          </div>
+          <figure class="section__img--wrapper">
+            <img src="./fes-library/assets/reading.png" alt="2 friends reading map">
+          </figure>
+        </div>    
+      </section>
+
+      <!-- Social Section -->
+      <section id="Social">
+        <div class=" row social__row">
+          <div class="section__card section__card--social">
+            <h1 class="section__title">Social</h1>
+            <div class="section__description">
+              <figure class="section__img--wrapper">
+            <img src="./fes-library/assets/social.png" alt="2 friends making layout">
+          </figure>
+              <div class="section__description--wrapper">
+                <p class="section__description--para">
+                  Frontend Simplified is dedicated to making frontend development accessible and straightforward for everyone. Our courses are designed to guide you from the basics to advanced concepts, ensuring a smooth learning experience.
+                </p>
+                <p class="section__description--para">
+                  Frontend Simplified is dedicated to making frontend development accessible and straightforward for everyone. Our courses are designed to guide you from the basics to advanced concepts, ensuring a smooth learning experience.
+                </p>
+          </div>
+        </div>    
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class=" row contact__row">
+          <div class="section__card section__card--contact">
+            <h1 class="section__title">Contact</h1>
+            <div class="section__description">
+                <form action="">
+                    <span>Email</span>
+                    <input type="email" placeholder="jane@example.com">
+                    <span>Message</span>  
+                    <textarea placeholder="Your message here"></textarea>
+                    <button>Contact Us</button>
+                </form>
+              </div>
+            </div>    
+          </div>    
+        </div>    
+      </section>
+    </main>
+
+    <footer>
+      <div class="logo footer__logo">
+          <img src="./fes-library/assets/fes-logo.png" alt="Frontend Simplified Logo" class="logo__img">
+          <h1 class="logo__text"><b>Frontend</b> Simplified</h1>
+      </div>
+      <div class="footer__links">
+        <a href="#about" class="footer__link">About</a>
+        <a href="#social" class="footer__link">Social</a>
+        <a href="#contact" class="footer__link">Contact</a>
+        <a href="#"class="footer__link">Courses</a>
+      </div>
+      <p>© Frontend Simplified</p>
+    </footer>
+
+  </body>
 </html>
+
